@@ -1,0 +1,7 @@
+a=3
+b=2
+print(id(a))
+print(id(b))
+b,a=a,b
+print(id(a))
+print(id(b))
